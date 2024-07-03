@@ -2,11 +2,10 @@
     "name": "root",
     "version": "1.0.0",
     "scripts": {
-      "dev": "concurrently \"cd client && npm start\" \"cd server && nodemon index.js\""
+      "dev": "concurrently \"cd client && npm start\" \"cd server && npm start\""
     },
     "dependencies": {
       "concurrently": "^8.2.2"
-      
     }
   }
   
